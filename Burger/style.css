@@ -1,0 +1,229 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+  color: #000;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+header {
+  background: linear-gradient(
+    180deg,
+    #eda418 47.4%,
+    rgba(237, 164, 24, 0) 100%
+  );
+}
+
+nav {
+  padding-top: 11px;
+  margin-bottom: 23px;
+}
+
+.nav_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding-top: 17px;
+}
+
+.nav_menu_button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-bottom: 23px;
+}
+
+.nav_menu_link {
+  margin-right: 100px;
+  font-size: 25px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.nav_menu_link#link1 {
+  font-weight: 700;
+}
+
+.nav_menu_link:hover {
+  color: white;
+}
+
+.header_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.hero_list-title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  padding-bottom: 29px;
+}
+
+.hero_list_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 40px;
+}
+
+.hero_list_btn {
+  padding: 14px 18px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  border: none;
+  background-color: #e62626;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.hero_list_btn:hover {
+  background-color: #881414;
+}
+
+.nav_menu_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-menu_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.main-menu_list {
+  align-items: center;
+  justify-content: center;
+  columns: 3;
+  box-sizing: border-box;
+  padding-left: 125px;
+  padding-right: 15px;
+  margin-bottom: 100px;
+}
+
+.main-menu_link{
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 150px;
+}
+
+h3{
+    place-items:inherit;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.main-title-burger{
+    place-items:inherit;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 170px;
+    margin-bottom: 15px;
+}
+.main-title-hot{
+    place-items:inherit;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 145px;
+    margin-bottom: 15px;
+}
+.main-title-salads, .main-title-deserts, .main-title-fries{
+    place-items:inherit;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 180px;
+    margin-bottom: 15px;
+}
+.main-title-chicken{
+    place-items:inherit;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 130px;
+    margin-bottom: 15px;
+}
+
+footer {
+  background: linear-gradient(
+    180deg,
+    rgba(237, 164, 24, 0) 5.0%,
+    #eda418 100%
+  );
+}
+
+.footer-copyright{
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 150.75px;
+}
+.footer-item{
+    display:inline-flex;    
+    align-items:center;
+    justify-content:center;
+    padding-left: 50px;
+    padding-bottom: 20px;  
+    padding-top: 20px;
+}
+
+.footer-text{
+  display:flexbox;
+  align-items: center;
+  justify-content: center;
+  padding-left: 480px;
+  margin-bottom: 15px;
+}
+.footer_text_1{
+  padding-left: 8px;
+  padding-bottom: 3px;
+}
+.footer-social{
+  padding-left: 530px;
+}
+.footer-social_item{
+  display:inline-flex;    
+  align-items:center;
+  justify-content:center;
+  
+}
